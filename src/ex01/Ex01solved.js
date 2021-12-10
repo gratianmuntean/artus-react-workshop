@@ -1,18 +1,22 @@
 import React from "react";
 
 const Ex01 = () => {
+    const callMe = () => {
+        console.log('Hi!');
+    }
+
     return (
         <div>
             <h1>Exercise 01 Solved</h1>
-            <CustomButton />
+            <CustomButton onClick={callMe} />
         </div>
     );
 }
 
 
-const CustomButton = () => {
+const CustomButton = (props) => {
     return (
-        <button style={{ cursor: 'pointer' }}>
+        <button style={{ cursor: 'pointer' }} onClick={props.onClick}>
             Click Me
         </button>
     )
