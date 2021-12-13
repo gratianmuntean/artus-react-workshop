@@ -16,7 +16,7 @@ const Ex01 = () => {
 
 const CustomButton = (props) => {
     return (
-        <button style={{ cursor: 'pointer' }} onClick={props.onClick}>
+        <button style={{ cursor: 'pointer', backgroundColor: 'blue' }} onClick={props.onClick}>
             Click Me
         </button>
     )
