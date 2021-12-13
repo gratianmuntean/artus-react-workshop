@@ -32,7 +32,13 @@ const useKeyPress = (targetKey) => {
     // Add event listeners in useEffect, and toggle the keyPressed state based
     // on keyup or keydown presses. The keyup and keydown events automatically
     // grab the key pressed via the argument 'key'
-    useEffect(() => { }, []);
+    useEffect(() => {
+        // add event listeners
+
+        return () => {
+            // remove the event listeners
+        }
+    }, []);
 
     return keyPressed;
 }

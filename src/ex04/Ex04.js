@@ -8,6 +8,7 @@ const Ex04 = () => {
     as the page loads up, and display each user's name and email in a <li></li>
     */
 
+    // fetch doc mdn url 
     return (
         <>
             <h2>Ex04</h2>
