@@ -60,3 +60,13 @@ li a:hover {
   width: 80vw;
   justify-content: space-between;
 }
+
+.styleContainer {
+  height: 100px;
+  width: 100px;
+  margin: 16px;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
