@@ -6,6 +6,9 @@ const Ex06 = () => {
     Let's make a custom hook that tracks when a certain key is pressed.
     We can use the event listeners for keydown and keyup to do this,
     whilst setting the hooks internal state to pressed -or not pressed-
+    Doc Links: 
+    https://reactjs.org/docs/hooks-custom.html
+    
     */
 
     const happyEmoji = '😊', sadEmoji = '😢';
