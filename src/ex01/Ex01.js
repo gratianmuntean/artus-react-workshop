@@ -10,6 +10,9 @@ const Ex01 = () => {
         2. Pass it as a prop to CustomButton so that the button will call
             this function when clicked
         3. Give the button a background-color of blue using inline styles
+        Docs links: 
+        https://medium.com/@francesca.dreith/how-to-pass-information-from-a-child-component-the-parent-component-in-react-db1cf9d012d0 
+        
      */
 
     return (
