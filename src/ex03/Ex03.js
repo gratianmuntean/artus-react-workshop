@@ -5,6 +5,9 @@ const Ex03 = () => {
     Let's see how we can display a list of components in react
     You have an array of random names below, let's render them
     in <li></li> elements inside the ul
+    Doc Links:
+
+    https://reactjs.org/docs/lists-and-keys.html
     */
 
     // const names = ['Mario', 'Jason', 'Joe', 'Joanna'];
