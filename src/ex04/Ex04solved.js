@@ -4,7 +4,8 @@ const Ex04solved = () => {
     const [users, setUsers] = useState([]);
 
     const fetchUsers = async () => {
-        return await fetch('https://jsonplaceholder.typicode.com/users').then((res) => res.json());
+        const response = await fetch('https://jsonplaceholder.typicode.com/users');
+        return response.json();
     }
 
     useEffect(() => {
