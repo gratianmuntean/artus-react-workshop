@@ -7,6 +7,11 @@ const Ex02 = () => {
     'red', we want the circle to turn red. If we type 'green',
     we want the circle to turn green and so on.
     If the input is empty, we want to keep the background white
+    
+    Doc links: 
+    https://reactjs.org/docs/hooks-state.html
+    https://www.codegrepper.com/code-examples/javascript/How+to+handle+text+input+change+in+react
+
     */
 
     return (
