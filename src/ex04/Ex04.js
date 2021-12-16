@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 
-import Ex04Class from './Ex04Class';
 
 const Ex04 = () => {
     /*
@@ -15,7 +14,6 @@ const Ex04 = () => {
     return (
         <>
             <h2>Ex04</h2>
-            <Ex04Class surname='Surname' />
             <ul>
                 {/* here you have to render the users */}
             </ul>
